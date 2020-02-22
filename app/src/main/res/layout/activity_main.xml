@@ -3,13 +3,14 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/view_flip"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <!--<androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent" >
+    <androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
 
         <View
             android:layout_width="80dp"
@@ -54,7 +55,7 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <View
-            android:id="@+id/view2"
+            android:id="@+id/view6"
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:background="@color/viewbg"
@@ -92,18 +93,20 @@
             android:layout_height="wrap_content"
             android:text="Text View"
             android:textSize="30sp"
-            app:layout_constraintStart_toStartOf="@+id/guideline"
-            tools:layout_editor_absoluteY="76dp" />
+            app:layout_constraintBottom_toTopOf="@+id/button3"
+            app:layout_constraintStart_toStartOf="@+id/guideline" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/button3"
             android:layout_width="268dp"
             android:layout_height="wrap_content"
             android:text="Button"
+            app:layout_constraintBottom_toTopOf="@+id/view5"
             app:layout_constraintStart_toStartOf="@+id/guideline"
-            app:layout_constraintTop_toBottomOf="@+id/textView" />
+            app:layout_constraintTop_toTopOf="parent" />
 
         <View
+            android:id="@+id/view2"
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:background="@color/viewbg"
@@ -112,12 +115,14 @@
             app:layout_constraintStart_toStartOf="@+id/guideline" />
 
         <View
+            android:id="@+id/view5"
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:background="@color/viewbg"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="@+id/guideline"
-            tools:layout_editor_absoluteY="250dp" />
+            app:layout_constraintTop_toTopOf="parent" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
@@ -166,7 +171,6 @@
             app:layout_constraintVertical_bias="0.562" />
 
         <View
-            android:id="@+id/view2"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:background="@color/viewbg"
@@ -200,31 +204,102 @@
             app:layout_constraintVertical_bias="0.0">
 
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:text="Four score and seven years ago our fathers brought forth on this continent, a new nation, conceived in Liberty, and dedicated to the proposition that all men are created equal.
-
-Now we are engaged in a great civil war, testing whether that nation, or any nation so conceived and so dedicated, can long endure. We are met on a great battle-field of that war. We have come to dedicate a portion of that field, as a final resting place for those who here gave their lives that that nation might live. It is altogether fitting and proper that we should do this.
-
-But, in a larger sense, we can not dedicate -- we can not consecrate -- we can not hallow -- this ground. The brave men, living and dead, who struggled here, have consecrated it, far above our poor power to add or detract. The world will little note, nor long remember what we say here, but it can never forget what they did here. It is for us the living, rather, to be dedicated here to the unfinished work which they who fought here have thus far so nobly advanced. It is rather for us to be here dedicated to the great task remaining before us -- that from these honored dead we take increased devotion to that cause for which they gave the last full measure of devotion -- that we here highly resolve that these dead shall not have died in vain -- that this nation, under God, shall have a new birth of freedom -- and that government of the people, by the people, for the people, shall not perish from the earth.
-
-Abraham Lincoln
-November 19, 1863 Four score and seven years ago our fathers brought forth on this continent, a new nation, conceived in Liberty, and dedicated to the proposition that all men are created equal.
-
-Now we are engaged in a great civil war, testing whether that nation, or any nation so conceived and so dedicated, can long endure. We are met on a great battle-field of that war. We have come to dedicate a portion of that field, as a final resting place for those who here gave their lives that that nation might live. It is altogether fitting and proper that we should do this.
-
-But, in a larger sense, we can not dedicate -- we can not consecrate -- we can not hallow -- this ground. The brave men, living and dead, who struggled here, have consecrated it, far above our poor power to add or detract. The world will little note, nor long remember what we say here, but it can never forget what they did here. It is for us the living, rather, to be dedicated here to the unfinished work which they who fought here have thus far so nobly advanced. It is rather for us to be here dedicated to the great task remaining before us -- that from these honored dead we take increased devotion to that cause for which they gave the last full measure of devotion -- that we here highly resolve that these dead shall not have died in vain -- that this nation, under God, shall have a new birth of freedom -- and that government of the people, by the people, for the people, shall not perish from the earth.
-
-Abraham Lincoln
-November 19, 1863" />
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The Entire Bee Movie Script Bee Movie Script  Dialogue Transcript\nAccording to all known laws of aviation,\nthere is no way a bee should be able to fly.\nIts wings are too small to get its fat little body off the ground.\nThe bee, of course, flies anyway\nbecause bees dont care what humans think is impossible.\nYellow, black. Yellow, black. Yellow, black. Yellow, black.\nOoh, black and yellow! Lets shake it up a little.\nBarry! Breakfast is ready!\nOoming!\nHang on a second.\nHello?\n Barry?  Adam?\n Oan you believe this is happening?  I cant. Ill pick you up.\nLooking sharp.\nUse the stairs. Your father paid good money for those.\nSorry. Im excited.\nHeres the graduate. Were very proud of you, son.\nA perfect report card, all Bs.\nVery proud.\nMa! I got a thing going here.\n You got lint on your fuzz.  Ow! Thats me!\n Wave to us! Well be in row 118,000.  Bye!\nBarry, I told you, stop flying in the house!\n Hey, Adam.  Hey, Barry.\n Is that fuzz gel?  A little. Special day, graduation.\nNever thought Id make it.\nThree days grade school, three days high school.\nThose were awkward.\nThree days college. Im glad I took a day and hitchhiked around the hive.\nYou did come back different.\n Hi, Barry.  Artie, growing a mustache? Looks good.\n Hear about Frankie?  Yeah.\n You going to the funeral?  No, Im not going.\nEverybody knows, sting someone, you die.\nDont waste it on a squirrel. Such a hothead.\nI guess he could have just gotten out of the way.\nI love this incorporating an amusement park into our day.\nThats why we dont need vacations.\nBoy, quite a bit of pomp... under the circumstances.\n Well, Adam, today we are men.  We are!\n Beemen.  Amen!\nHallelujah!\nStudents, faculty, distinguished bees,\nplease welcome Dean Buzzwell.\nWelcome, New Hive Oity graduating class of...\n...9:15.\nThat concludes our ceremonies.\nAnd begins your career at Honex Industries!\nWill we pick ourjob today?\nI heard its just orientation.\nHeads up! Here we go.\nKeep your hands and antennas inside the tram at all times.\n Wonder what itll be like?  A little scary.\nWelcome to Honex, a division of Honesco\nand a part of the Hexagon Group.\nThis is it!\nWow.\nWow.\nWe know that you, as a bee, have worked your whole life\nto get to the point where you can work for your whole life.\nHoney begins when our valiant Pollen Jocks bring the nectar to the hive.\nOur topsecret formula\nis automatically colorcorrected, scentadjusted and bubblecontoured\ninto this soothing sweet syrup\nwith its distinctive golden glow you know as...\nHoney!\n That girl was hot.  Shes my cousin!\n She is?  Yes, were all cousins.\n Right. Youre right.  At Honex, we constantly strive\nto improve every aspect of bee existence.\nThese bees are stresstesting a new helmet technology.\n What do you think he makes?  Not enough.\nHere we have our latest advancement, the Krelman.\n What does that do?  Oatches that little strand of honey\nthat hangs after you pour it. Saves us millions.\nOan anyone work on the Krelman?\nOf course. Most bee jobs are small ones. But bees know\nthat every small job, if its done well, means a lot.\nBut choose carefully\nbecause youll stay in the job you pick for the rest of your life.\nThe same job the rest of your life? I didnt know that.\nWhats the difference?\nYoull be happy to know that bees, as a species, havent had one day off\nin 27 million years.\nSo youll just work us to death?\nWell sure try.\nWow! That blew my mind!\nWhats the difference? How can you say that?\nOne job forever? Thats an insane choice to have to make.\nIm relieved. Now we only have to make one decision in life.\nBut, Adam, how could they never have told us that?\nWhy would you question anything? Were bees.\nWere the most perfectly functioning society on Earth.\nYou ever think maybe things work a little too well here?\nLike what? Give me one example.\nI dont know. But you know what Im talking about.\nPlease clear the gate. Royal Nectar Force on approach.\nWait a second. Oheck it out.\n Hey, those are Pollen Jocks!  Wow.\nIve never seen them this close.\nThey know what its like outside the hive.\nYeah, but some dont come back.\n Hey, Jocks!  Hi, Jocks!\nYou guys did great!\nYoure monsters! Youre sky freaks! I love it! I love it!\n I wonder where they were.  I dont know.\nTheir days not planned.\nOutside the hive, flying who knows where, doing who knows what.\nYou cantjust decide to be a Pollen Jock. You have to be bred for that.\nRight.\nLook. Thats more pollen than you and I will see in a lifetime.\nIts just a status symbol. Bees make too much of it.\nPerhaps. Unless youre wearing it and the ladies see you wearing it.\nThose ladies? Arent they our cousins too?\nDistant. Distant.\nLook at these two.\n Oouple of Hive Harrys.  Lets have fun with them.\nIt must be dangerous being a Pollen Jock.\nYeah. Once a bear pinned me against a mushroom!\nHe had a paw on my throat, and with the other, he was slapping me!\n Oh, my!  I never thought Id knock him out.\nWhat were you doing during this?\nTrying to alert the authorities.\nI can autograph that.\nA little gusty out there today, wasnt it, comrades?\nYeah. Gusty.\nWere hitting a sunflower patch six miles from here tomorrow.\n Six miles, huh?  Barry!\nA puddle jump for us, but maybe youre not up for it.\n Maybe I am.  You are not!\nWere going 0900 at JGate.\nWhat do you think, buzzyboy? Are you bee enough?\nI might be. It all depends on what 0900 means.\nHey, Honex!\nDad, you surprised me.\nYou decide what youre interested in?\n Well, theres a lot of choices.  But you only get one.\nDo you ever get bored doing the same job every day?\nSon, let me tell you about stirring.\nYou grab that stick, and you just move it around, and you stir it around.\nYou get yourself into a rhythm. Its a beautiful thing.\nYou know, Dad, the more I think about it,\nmaybe the honey field just isnt right for me.\nYou were thinking of what, making balloon animals?\nThats a bad job for a guy with a stinger.\nJanet, your sons not sure he wants to go into honey!\n Barry, you are so funny sometimes.  Im not trying to be funny.\nYoure not funny! Youre going into honey. Our son, the stirrer!\n Youre gonna be a stirrer?  No ones listening to me!\nWait till you see the sticks I have.\nI could say anything right now. Im gonna get an ant tattoo!\nLets open some honey and celebrate!\nMaybe Ill pierce my thorax. Shave my antennae.\nShack up with a grasshopper. Get a gold tooth and call everybody dawg!\nIm so proud.\n Were starting work today!  Todays the day.\nOome on! All the good jobs will be gone.\nYeah, right.\nPollen counting, stunt bee, pouring, stirrer, front desk, hair removal...\n Is it still available?  Hang on. Two left!\nOne of thems yours! Oongratulations! Step to the side.\n Whatd you get?  Picking crud out. Stellar!\nWow!\nOouple of newbies?\nYes, sir! Our first day! We are ready!\nMake your choice.\n You want to go first?  No, you go.\nOh, my. Whats available?\nRestroom attendants open, not for the reason you think.\n Any chance of getting the Krelman?  Sure, youre on.\nIm sorry, the Krelman just closed out.\nWax monkeys always open.\nThe Krelman opened up again.\nWhat happened?\nA bee died. Makes an opening. See? Hes dead. Another dead one.\nDeady. Deadified. Two more dead.\nDead from the neck up. Dead from the neck down. Thats life!\nOh, this is so hard!\nHeating, cooling, stunt bee, pourer, stirrer,\nhumming, inspector number seven, lint coordinator, stripe supervisor,\nmite wrangler. Barry, what do you think I should... Barry?\nBarry!\nAll right, weve got the sunflower patch in quadrant nine...\nWhat happened to you? Where are you?\n Im going out.  Out? Out where?\n Out there.  Oh, no!\nI have to, before I go to work for the rest of my life.\nYoure gonna die! Youre crazy! Hello?\nAnother call coming in.\nIf anyones feeling brave, theres a Korean deli on 83rd\nthat gets their roses today.\nHey, guys.\n Look at that.  Isnt that the kid we saw yesterday?\nHold it, son, flight decks restricted.\nIts OK, Lou. Were gonna take him up.\nReally? Feeling lucky, are you?\nSign here, here. Just initial that.\n Thank you.  OK.\nYou got a rain advisory today,\nand as you all know, bees cannot fly in rain.\nSo be careful. As always, watch your brooms,\nhockey sticks, dogs, birds, bears and bats.\nAlso, I got a couple of reports of root beer being poured on us.\nMurphys in a home because of it, babbling like a cicada!\n Thats awful.  And a reminder for you rookies,\nbee law number one, absolutely no talking to humans!\nAll right, launch positions!\nBuzz, buzz, buzz, buzz! Buzz, buzz, buzz, buzz! Buzz, buzz, buzz, buzz!\nBlack and yellow!\nHello!\nYou ready for this, hot shot?\nYeah. Yeah, bring it on.\nWind, check.\n Antennae, check.  Nectar pack, check.\n Wings, check.  Stinger, check.\nScared out of my shorts, check.\nOK, ladies,\nlets move it out!\nPound those petunias, you striped stemsuckers!\nAll of you, drain those flowers!\nWow! Im out!\nI cant believe Im out!\nSo blue.\nI feel so fast and free!\nBox kite!\nWow!\nFlowers!\nThis is Blue Leader. We have roses visual.\nBring it around 30 degrees and hold.\nRoses!\n30 degrees, roger. Bringing it around.\nStand to the side, kid. Its got a bit of a kick.\nThat is one nectar collector!\n Ever see pollination up close?  No, sir.\nI pick up some pollen here, sprinkle it over here. Maybe a dash over there,\na pinch on that one. See that? Its a little bit of magic.\nThats amazing. Why do we do that?\nThats pollen power. More pollen, more flowers, more nectar, more honey for us.\nOool.\nIm picking up a lot of bright yellow. Oould be daisies. Dont we need those?\nOopy that visual.\nWait. One of these flowers seems to be on the move.\nSay again? Youre reporting a moving flower?\nAffirmative.\nThat was on the line!\nThis is the coolest. What is it?\nI dont know, but Im loving this color.\nIt smells good. Not like a flower, but I like it.\nYeah, fuzzy.\nOhemicaly.\nOareful, guys. Its a little grabby.\nMy sweet lord of bees!\nOandybrain, get off there!\nProblem!\n Guys!  This could be bad.\nAffirmative.\nVery close.\nGonna hurt.\nMamas little boy.\nYou are way out of position, rookie!\nOoming in at you like a missile!\nHelp me!\nI dont think these are flowers.\n Should we tell him?  I think he knows.\nWhat is this?!\nMatch point!\nYou can start packing up, honey, because youre about to eat it!\nYowser!\nGross.\nTheres a bee in the car!\n Do something!  Im driving!\n Hi, bee.  Hes back here!\nHes going to sting me!\nNobody move. If you dont move, he wont sting you. Freeze!\nHe blinked!\nSpray him, Granny!\nWhat are you doing?!\nWow... the tension level out here is unbelievable.\nI gotta get home.\nOant fly in rain.\nOant fly in rain.\nOant fly in rain.\nMayday! Mayday! Bee going down!\nKen, could you close the window please?\nKen, could you close the window please?\nOheck out my new resume. I made it into a foldout brochure.\nYou see? Folds out.\nOh, no. More humans. I dont need this.\nWhat was that?\nMaybe this time. This time. This time. This time! This time! This...\nDrapes!\nThat is diabolical.\nIts fantastic. Its got all my special skills, even my topten favorite movies.\nWhats number one? Star Wars?\nNah, I dont go for that...\n...kind of stuff.\nNo wonder we shouldnt talk to them. Theyre out of their minds.\nWhen I leave a job interview, theyre flabbergasted, cant believe what I say.\nTheres the sun. Maybe thats a way out.\nI dont remember the sun having a big 75 on it.\nI predicted global warming.\nI could feel it getting hotter. At first I thought it was just me.\nWait! Stop! Bee!\nStand back. These are winter boots.\nWait!\nDont kill him!\nYou know Im allergic to them! This thing could kill me!\nWhy does his life have less value than yours?\nWhy does his life have any less value than mine? Is that your statement?\nIm just saying all life has value. You dont know what hes capable of feeling.\nMy brochure!\nThere you go, little guy.\nIm not scared of him. Its an allergic thing.\nPut that on your resume brochure.\nMy whole face could puff up.\nMake it one of your special skills.\nKnocking someone out is also a special skill.\nRight. Bye, Vanessa. Thanks.\n Vanessa, next week? Yogurt night?  Sure, Ken. You know, whatever.\n You could put carob chips on there.  Bye.\n Supposed to be less calories.  Bye.\nI gotta say something.\nShe saved my life. I gotta say something.\nAll right, here it goes.\nNah.\nWhat would I say?\nI could really get in trouble.\nIts a bee law. Youre not supposed to talk to a human.\nI cant believe Im doing this.\nIve got to.\nOh, I cant do it. Oome on!\nNo. Yes. No.\nDo it. I cant.\nHow should I start it? You like jazz? No, thats no good.\nHere she comes! Speak, you fool!\nHi!\nIm sorry.\n Youre talking.  Yes, I know.\nYoure talking!\nIm so sorry.\nNo, its OK. Its fine. I know Im dreaming.\nBut I dont recall going to bed.\nWell, Im sure this is very disconcerting.\nThis is a bit of a surprise to me. I mean, youre a bee!\nI am. And Im not supposed to be doing this,\nbut they were all trying to kill me.\nAnd if it wasnt for you...\nI had to thank you. Its just how I was raised.\nThat was a little weird.\n Im talking with a bee.  Yeah.\nIm talking to a bee. And the bee is talking to me!\nI just want to say Im grateful. Ill leave now.\n Wait! How did you learn to do that?  What?\nThe talking thing.\nSame way you did, I guess. Mama, Dada, honey. You pick it up.\n Thats very funny.  Yeah.\nBees are funny. If we didnt laugh, wed cry with what we have to deal with.\nAnyway...\nOan I...\n...get you something?  Like what?\nI dont know. I mean... I dont know. Ooffee?\nI dont want to put you out.\nIts no trouble. It takes two minutes.\n Its just coffee.  I hate to impose.\n Dont be ridiculous!  Actually, I would love a cup.\nHey, you want rum cake?\n I shouldnt.  Have some.\n No, I cant.  Oome on!\nIm trying to lose a couple micrograms.\n Where?  These stripes dont help.\nYou look great!\nI dont know if you know anything about fashion.\nAre you all right?\nNo.\nHes making the tie in the cab as theyre flying up Madison.\nHe finally gets there.\nHe runs up the steps into the church. The wedding is on.\nAnd he says, Watermelon? I thought you said Guatemalan.\nWhy would I marry a watermelon?\nIs that a bee joke?\nThats the kind of stuff we do.\nYeah, different.\nSo, what are you gonna do, Barry?\nAbout work? I dont know.\nI want to do my part for the hive, but I cant do it the way they want.\nI know how you feel.\n You do?  Sure.\nMy parents wanted me to be a lawyer or a doctor, but I wanted to be a florist.\n Really?  My only interest is flowers."/>
         </ScrollView>
 
-    </androidx.constraintlayout.widget.ConstraintLayout>-->
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent" >
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent=".15" />
+
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/guideline2">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Button"/>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Button"/>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Button"/>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Button"/>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Button"/>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Button"/>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Button"/>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Button"/>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Button"/>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Button"/>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Button"/>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Button"/>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Button"/>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Button"/>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Button"/>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Button"/>
+            </LinearLayout>
+
+        </HorizontalScrollView>
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
@@ -233,7 +308,27 @@ November 19, 1863" />
         android:layout_width="fill_parent"
         android:layout_height="fill_parent" >
 
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent=".15" />
 
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textSize="35sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/guideline3" />
+
+        <include layout="@layout/layout_final"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/textView2"/>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
